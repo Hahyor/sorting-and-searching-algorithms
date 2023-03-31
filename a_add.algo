@@ -1,0 +1,7 @@
+var key = arr[1];
+var j = i-1;
+while j >= 0 and arr[j] > key:
+            arr[j+1] = arr[j]
+            j -= 1
+        arr[j+1] = key
+    
